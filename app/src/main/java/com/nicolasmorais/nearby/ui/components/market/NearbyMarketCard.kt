@@ -50,6 +50,9 @@ fun NearbyMarketCard(
             .border(
                 width = 1.dp, color = Gray200, shape = RoundedCornerShape(12.dp)
             ),
+        onClick = {
+            onCLick(market)
+        }
     ) {
         Row(
             modifier = Modifier

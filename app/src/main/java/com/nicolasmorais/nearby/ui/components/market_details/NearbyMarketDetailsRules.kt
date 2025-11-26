@@ -25,7 +25,7 @@ fun NearbyMarketDetailsRules(modifier: Modifier = Modifier, rules: List<Rule>) {
 
         Text(
             modifier = Modifier.padding(start = 16.dp),
-            text = rules.joinToString(separator = "\n", transform = { ". ${it.description}" }),
+            text = rules.joinToString(separator = "\n", transform = { "• ${it.description}" }),
             style = Typography.labelMedium,
             lineHeight = 24.sp,
             color = Gray400
